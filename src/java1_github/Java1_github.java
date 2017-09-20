@@ -7,7 +7,7 @@ package java1_github;
 
 /**
  *
- * @author ronni
+ * @author ronnie
  */
 public class Java1_github {
 
@@ -16,6 +16,10 @@ public class Java1_github {
      */
     public static void main(String[] args) {
         System.out.println("hello, world");
-    }
     
+        printname();
+    }
+    public static void printname() {
+        System.out.println("linue Torvald");
+    }
 }
